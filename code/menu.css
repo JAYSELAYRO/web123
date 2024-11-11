@@ -1,43 +1,115 @@
+/* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-    background-color: #F5F5F5; /* Light Beige */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
+/* Header Section */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 20px;
-    background-color: rgba(0, 0, 0, 0.5); ;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    position: relative;
-    z-index: 2; /* Ensure header stays above welcome message */
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-nav ul li a {
-    color: #D32F2F;  /* Primary Color: Red */
-    font-weight: bold;
-    padding: 5px 20px;
-    border-radius: 10px;
-}
-
-nav ul li a:hover {
-    color: #FFEB3B;  /* Secondary Color: Yellow */
-    border: 2px solid #FFEB3B;  /* Accent hover border color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f8f8f8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header h1 {
-    font-size: 20px;
-    color: #D32F2F;  /* Primary Color: Red */
+  font-size: 30px;
+  color: #333;
+  margin: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: orange;
+  border: 1px solid #007BFF;
+  background-color: #f0f0f0;
+}
+
+/* h1 boodle */
+.boodle {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* Container for Menu Items */
+.container {
+  display: flex; /* Ensure flexbox works on the parent */
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+/* Menu Item Styles */
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 300px;
+  align-items: center;
+  box-sizing: border-box;
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for smooth hover effect */
+  display: inline-block; /* Ensures it's a block-level element */
+  z-index: 1; /* Ensure it's not being covered by other elements */
+}
+
+.menu-item:hover {
+  transform: scale(1.1); /* Slightly enlarges the item */
+  background-color: #e0e0e0; /* Optionally, change background color on hover */
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.details {
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.details-item {
+  font-weight: bold;
+}
+
+.list {
+  list-style: circle;
+  padding: 30px;
+}
+
+.list-item {
+  margin-bottom: 5px;
+  padding: auto;
 }
