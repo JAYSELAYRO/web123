@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #F5F5F5; /* Light Beige */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.5); ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 2; /* Ensure header stays above welcome message */
+}
+
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensure video stays behind content */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: #D32F2F;  /* Primary Color: Red */
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: #FFEB3B;  /* Secondary Color: Yellow */
+    border: 2px solid #FFEB3B;  /* Accent hover border color */
+}
+
+header h1 {
+    font-size: 20px;
+    color: #D32F2F;  /* Primary Color: Red */
+}
+
+/* Chef Section */
+.chef-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+/* Chef Card Styling */
+.chef-card {
+    background-color: #d9534f; /* Red background for chef cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    color: white; /* White text for better contrast */
+}
+
+.chef-photo {
+    width: 100%;
+    height: 250px;
+    object-fit:fill; 
+    border-bottom: 2px solid #fff; /* White border under photo */
+}
+
+.chef-info {
+    padding: 20px;
+    text-align: justify;
+}
+
+.chef-info h2 {
+    color: white; /* White color for chef name */
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+}
+
+.chef-info h3 {
+    color: #f0ad4e; /* Golden accent color for position */
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+.chef-info p {
+    color: #ddd; /* Light gray for paragraph text */
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.chef-card:hover {
+    transform: scale(1.1);
+    background-color: #c9302c; /* Darker red on hover */
+}
