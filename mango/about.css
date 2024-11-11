@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #F5F5F5; /* Light Beige */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgba(0, 0, 0, 0.5); ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 2; /* Ensure header stays above welcome message */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: #D32F2F;  /* Primary Color: Red */
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: #FFEB3B;  /* Secondary Color: Yellow */
+    border: 2px solid #FFEB3B;  /* Accent hover border color */
+}
+
+header h1 {
+    font-size: 20px;
+    color: #D32F2F;  /* Primary Color: Red */
+}
+
+/* h2 Section */
+h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+/* About Section */
+.about {
+    background-color: #fff; 
+    
+}
+
+.about-content h2 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.about-content h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #333;
+    text-align: justify;
+    font-weight: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Image Section */
+.img-about {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+.img-about img {
+    height: 450px;
+    width: 800px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    color: orangered;
+    background-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+
+.button:hover {
+    color: #ff0000;
+    border: 2px solid #ff4800; 
+}
