@@ -1,0 +1,161 @@
+/* Body styles */
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  padding: auto;
+  position: relative;
+  overflow: scroll;
+  background-color: RGB(255, 253, 245); 
+  max-height:max-content;
+}
+
+/* Header section styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  z-index: 2; 
+}
+
+header a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+header a:hover {
+  text-decoration: none; 
+}
+
+/* Header title styling */
+header h1 {
+  font-size: 30px;
+  color: brown;  
+}
+
+/* Navigation menu styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Link styles in the navigation menu */
+nav ul li a {
+  color: brown;
+  font-weight: bold;
+  padding: 5px 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: rgb(255, 204, 204);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Boodle section  */
+.boodle {
+  padding: 10px;
+  margin: 30px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: brown;
+  text-align: left; 
+}
+
+/* Horizontal line in the boodle section */
+.boodle hr {
+  width: 90%; 
+  height: 10px; 
+  border: none; 
+  background-color: brown; 
+  margin-left: auto; 
+  margin-right: 0; 
+}
+
+
+/* Container layout styles */
+.container {
+  gap: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: flex-end;
+  margin: 0 auto;
+  display: flex; 
+}
+
+/* Menu item styling */
+.menu-item {
+  border: 1px solid #cccccc; 
+  border-radius: 5px;
+  width: 500px; 
+  box-sizing: border-box; 
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+  display: inline-block; 
+}
+
+/* Menu item hover effect */
+.menu-item:hover {
+  background-color: rgb(255, 204, 204); 
+  transform: scale(1.05); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+/* Image inside the menu item */
+.image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px; 
+}
+
+/* Menu item title styling */
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: RGB(139, 69, 19); 
+}
+
+/* Details section in menu items */
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  color: RGB(139, 69, 19); 
+  font-weight: bolder;
+}
+
+/* Individual detail item in the menu */
+.details-item {
+  font-weight: bold;
+}
+
+/* List style for menu items' additional features */
+.list {
+  list-style: circle; 
+  padding-left: 20px;
+}
+
+/* List item styling */
+.list-item {
+  margin-bottom: 5px;
+ color:RGB(139, 69, 19);
+  font-weight: bold;
+}
+
+/* Description text for menu items */
+.menu-item .description {
+  font-size: 0.95em; 
+  color: RGB(139, 69, 19); 
+  margin-top: 12px;
+  line-height: 1.4; 
+  font-weight: bold; 
+  font-weight: bolder;
+}
