@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: scroll;
+    background-color: RGB(255, 253, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 2; 
+}
+
+header a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+header a:hover {
+    text-decoration: none; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: brown;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size:20px ;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(255, 204, 204);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+header h1 {
+    font-size: 30px;
+    color:brown;
+}
+
+/* Boodle section  Our Restaurant Gallery ni */
+.boodle {
+    padding: 10px;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: brown;
+    text-align: left; 
+  }
+  
+  /* Horizontal line in the boodle section ni */
+  .boodle hr {
+    width: 90%; 
+    height: 10px; 
+    border: none; 
+    background-color: brown; 
+    margin-left: auto; 
+    margin-right: 0; 
+  }
+
+/* Container for the Gallery ni */
+.container {
+    max-width: 1124px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
+
+/* Photo Gallery Styling ni */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
+
+/* Photo Styling ni*/
+.photo {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Photo img Styling ni */
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* Photo Gallery Styling for hover animation ni*/
+.photo:hover img {
+    transform: scale(1.1);
+}
+
+
