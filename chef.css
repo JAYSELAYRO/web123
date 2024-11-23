@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: scroll;
+    background-color: RGB(255, 253, 245);
+    max-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 2; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: brown;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size:20px ;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(255, 204, 204);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+header h1 {
+    font-size: 20px;
+    color: brown;
+}
+
+/* Boodle section ni meet our chef */
+.boodle {
+    padding: 10px;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: brown;
+    text-align: left; 
+  }
+  
+  /* Horizontal-hr line in the boodle section ni */
+  .boodle hr {
+    width: 90%; 
+    height: 10px; 
+    border: none; 
+    background-color: brown; 
+    margin-left: auto; 
+    margin-right: 0; 
+  }
+
+/* Chef Section ni*/
+.chef-section {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+/* Chef Card Styling  ni  */
+.chef-card {
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    color: white; 
+}
+
+/* Chef picture Styling  ni  */
+.chef-photo {
+    width: 100%;
+    height: 250px;
+    object-fit:fill; 
+    border-bottom: 2px solid #fff; 
+}
+
+/* Chef info h2,h3,p Styling  ni  */
+.chef-info {
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Chef info h2 Styling  ni  */
+.chef-info h2 {
+    color:brown;
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Chef info h3 Styling  ni  */
+.chef-info h3 {
+    color: brown; /* Golden accent color for position */
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Chef info p Styling  ni  */
+.chef-info p {
+    color: brown;
+    margin: 10px 0;
+    text-align: justify;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Chef  card hover ni animation sang chef card  */
+.chef-card:hover {
+    transform: scale(1.1);
+    background-color: rgb(255, 204, 204);
+    color: brown;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+}
