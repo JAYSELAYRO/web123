@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: scroll;
+    background-color: RGB(255, 253, 245); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 2;
+ }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: brown;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 204, 204);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 30px;
+    color: brown;  
+}
+
+/* h1 Section who we are ni */
+.boodle {
+    margin: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: brown;
+    text-align: left; 
+  }
+  
+  /* Horizontal line in the boodle section ni */
+  .boodle hr {
+    width: 90%; 
+    height: 10px; 
+    border: none; 
+    background-color: brown; 
+    margin-left: 210px; 
+    margin-right: auto; 
+  }
+  
+
+/* About Section nga bg-color*/
+.about {
+    background-color: #fff; 
+    
+}
+/* About us content sa h2 ni  tung may mabuhay na words*/
+.about-content h2 {
+    font-size: 30px;
+    color: brown;
+    text-align: center;
+}
+
+
+/* About us content sa p ni  tung may discover na words*/
+.about-content p {
+    font-size: 18px;
+    color: brown;
+    text-align: justify;
+    font-weight: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Image Section ni positioning ni */
+.img-about {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Image Section diri gina djust kadakoon sang img ni */
+.img-about img {
+    height: 450px;
+    width: 800px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+}
+
+/* button position pakadto sa chef kag gallery  ni  */
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+/* button content pakadto sa chef kag gallery  ni  */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+    color: lightcyan;
+    background-color:brown;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    bottom: 50%;
+    
+}
+
+/* button hover amo ning animation sa button  pakadto sa chef kag gallery  ni  */
+.button:hover {
+    background-color: rgb(255, 204, 204); 
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
