@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>SHA_IT FILIPINO RESTAURANT</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Reservation Section -->
+    <div class="container">
+        <h1>Restaurant Reservation</h1>
+        <form action="#" method="post">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="reservationDate">Reservation Date</label>
+            <input type="date" id="reservationDate" name="reservationDate" required>
+
+            <label for="reservationTime">Reservation Time</label>
+            <input type="time" id="reservationTime" name="reservationTime" required>
+
+            <label for="guests">Number of Guests</label>
+            <select id="guests" name="guests" required>
+                <option value="" disabled selected>Choose number of guests</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6+">6+</option>
+            </select>
+
+            <label for="requests">Special Requests</label>
+            <textarea id="requests" name="requests" rows="4" placeholder="Any special requests?"></textarea>
+
+            <button type="submit">Book Reservation</button>
+        </form>
+
+        <!-- Social Links Section -->
+        <div class="social-links">
+            <p>Follow Us:</p>
+            <a href="https://youtube.com" target="_blank">
+                <img src="logo1.png" alt="Instagram" width="40" height="40">
+            </a>
+          
+            <a href="https://https://www.whatsapp.com//" target="_blank">
+                <img src="logo2.png" alt="Twitter" width="40" height="40">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="logo3.png" alt="Facebook" width="40" height="40">
+            </a>
+
+            <a href="https://foodpanda.com/" target="_blank">
+                <img src="logo4.png" alt="Twitter" width="40" height="40">
+            </a>
+
+            <a href="https://https://www.instagram.com//" target="_blank">
+                <img src="logo5.png" alt="Twitter" width="40" height="40">
+            </a>
+
+            <a href="https://x.com/" target="_blank">
+                <img src="logo6.png" alt="Twitter" width="40" height="40">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

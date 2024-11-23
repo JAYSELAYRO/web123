@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: scroll;
+    background-color: #F5F5F5; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    z-index: 2; 
+}
+
+header a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+header a:hover {
+    text-decoration: none; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: brown;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(255, 204, 204);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+header h1 {
+    font-size: 30px;
+    color: brown
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    color: brown;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: brown;
+}
+input, select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+button {
+    background-color:brown;
+    color:rgb(255, 204, 204); 
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: rgb(255, 204, 204); /* Light red background on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+}
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-links p{
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+}
+.social-links img {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.3s ease;
+}
+.social-links img:hover {
+    transform: scale(2.01);
+    
+}
